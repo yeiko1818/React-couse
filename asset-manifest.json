@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-couse/static/css/main.ab06c84f.css",
+    "main.js": "/react-couse/static/js/main.1ced5d79.js",
+    "static/media/check.svg": "/react-couse/static/media/check.741da72a44d993c0547aad7798107a30.svg",
+    "static/media/delete.svg": "/react-couse/static/media/delete.2c1dfee6cf2154d9ef5004927f8241d6.svg",
+    "index.html": "/react-couse/index.html",
+    "main.ab06c84f.css.map": "/react-couse/static/css/main.ab06c84f.css.map",
+    "main.1ced5d79.js.map": "/react-couse/static/js/main.1ced5d79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab06c84f.css",
+    "static/js/main.1ced5d79.js"
+  ]
+}
