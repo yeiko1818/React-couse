@@ -24,21 +24,23 @@ function AppUI() {
   return (
     <div className="App">
       <TodoCounter />
-      <TodoSearch />
-      <TodoList>
-        {error && <TodosError error={error} />}
-        {loading && <TodosLoading />}
-        {!loading && !searchedTodos.length && <EmptyTodos />}
-        {searchedTodos.map((todo) => (
-          <TodoItem
-            key={todo.text}
-            text={todo.text}
-            completed={todo.completed}
-            onComplete={() => completeTodo(todo.text)}
-            onDelete={() => deleteTodo(todo.text)}
-          />
-        ))}
-      </TodoList>
+      <div className="bk">
+        <TodoSearch />
+        <TodoList>
+          {error && <TodosError error={error} />}
+          {loading && <TodosLoading />}
+          {!loading && !searchedTodos.length && <EmptyTodos />}
+          {searchedTodos.map((todo) => (
+            <TodoItem
+              key={todo.text}
+              text={todo.text}
+              completed={todo.completed}
+              onComplete={() => completeTodo(todo.text)}
+              onDelete={() => deleteTodo(todo.text)}
+            />
+          ))}
+        </TodoList>
+      </div>
       {!!openModal && (
         <Modal>
           <TodoForm />

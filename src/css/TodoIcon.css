@@ -16,8 +16,8 @@
     right: 0;
 }
 .Icon-svg{
-    width: 24px;
-    height: 24px;
+    width: 100px;
+    height: 100px;
     transition: fill .15s;
 }
 .Icon-container:hover .Icon-svg--check{

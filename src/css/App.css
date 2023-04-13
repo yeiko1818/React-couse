@@ -1,5 +1,16 @@
+
 .App {
   text-align: center;
+  width: calc(100% - 20%);
+  margin: auto;
+  
+}
+
+.bk{
+  background-image: url("../fondo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
 }
 
 .App-logo {
